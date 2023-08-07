@@ -1,0 +1,128 @@
+body {
+  background-color: #C1CFD9;
+}
+
+
+
+.container #editorjs {
+  background: rgba(255, 255, 255, 0.3);
+  line-height: 1.5;
+  /* padding: 10px; */
+  padding: 20px;
+  /* border-radius: 10px; */
+  border-radius: 0 0 10px 10px;
+
+  letter-spacing: .5px;
+  box-shadow: 0 0 2px;
+  letter-spacing: .5px;
+  min-height: 20vh;
+  outline: none;
+}
+@media (max-width: 991px) {
+  .container #editorjs{
+    min-height: 50vh;
+
+    
+  }
+  
+}
+.container {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  filter: blur(25px);
+  border-radius: 20px;
+  background-color: #e499ff;
+  background-image: radial-gradient(at 47% 69%, hsla(17, 62%, 65%, 1) 0px, transparent 50%),
+    radial-gradient(at 9% 32%, hsla(222, 75%, 60%, 1) 0px, transparent 50%);
+}
+
+/*small*/
+@media (max-width: 767px) {
+  .container {
+    /* width: 100%; */
+  }
+
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+
+}
+
+/*Medium*/
+@media (min-width: 992px) {
+  .container {
+    width: 750px;
+  }
+}
+
+/*Large*/
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+.container .text-intro {
+  text-align: center;
+  font-size: 42px;
+  font-weight: bold;
+  margin: 23px 0;
+  padding: 10px;
+  text-align: center;
+  min-height: 70px;
+  border-radius: 8px;
+  border: 0;
+  background-color: #1e2128;
+  font-family: Menlo, Monaco, Consolas, Courier New, monospace;
+  line-height: 1.6;
+  letter-spacing: -0.2px;
+  color: #a1a7b6;
+  border-radius: 10px 10px 0 0;
+  margin-bottom: 1px;
+  z-index: 2;
+  position: relative;
+}
+
+@media (max-width: 991px) {
+  .container .text-intro{
+    min-height: 137px;
+    
+  }
+  
+}
+@media (max-width: 767px) {
+  .container .text-intro{
+    font-size: 20px;
+    min-height: 50px;
+
+  }
+
+}
+
+.codex-editor--empty:nth-child(2) {
+  display: none !important;
+}
+
+.ce-popover {
+  z-index: 1000;
+}
+.codex-editor__redactor{
+  padding-bottom: 62px !important;
+}
