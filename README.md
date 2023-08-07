@@ -1,70 +1,26 @@
-# Getting Started with Create React App
+# Inspire: An Innovative Text Editor
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to Inspire, an innovative text editor powered by React and the open-source EditorJS library. This text editor provides a rich set of features and tools to help you create and edit content seamlessly. It includes capabilities for formatting text, adding headers, creating lists, embedding media, and more.
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Inspire comes with a range of features that enhance your text editing experience:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Text Formatting:** Apply bold, italic, and underline styles to your text.
+- **Headers:** Add different levels of headers to organize your content.
+- **Lists:** Create bulleted and numbered lists for clear content structuring.
+- **Embed Media:** Easily embed media such as images, videos, and more.
+- **Quote Blocks:** Insert quoted text with configurable captions.
+- **Checklists:** Include interactive checklists to keep track of tasks.
 
-### `npm test`
+## Typewriter Effect
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The welcome message in Inspire uses a typewriter effect to gradually display the text. The `Typewriter` component is employed to achieve this effect. The text is displayed character by character with a specified delay between each character.
 
-### `npm run build`
+```jsx
+import Typewriter from "./Typewriter";
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+// Usage
+<Typewriter text="Welcome to Inspire: An Innovative Text Editor!" delay={100} />
