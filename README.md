@@ -12,7 +12,6 @@ Inspire comes with a range of features that enhance your text editing experience
 - **Text Formatting:** Apply bold, italic, and underline styles to your text.
 - **Headers:** Add different levels of headers to organize your content.
 - **Lists:** Create bulleted and numbered lists for clear content structuring.
-- **Embed Media:** Easily embed media such as images, videos, and more.
 - **Quote Blocks:** Insert quoted text with configurable captions.
 - **Checklists:** Include interactive checklists to keep track of tasks.
 
