@@ -9,7 +9,7 @@ You can access the online text editor by visiting the following link: [Online Te
 
 Inspire comes with a range of features that enhance your text editing experience:
 
-- **Text Formatting:** Apply bold, italic, and underline styles to your text.
+- **Text Formatting:** Apply bold, italic  styles to your text.
 - **Headers:** Add different levels of headers to organize your content.
 - **Lists:** Create bulleted and numbered lists for clear content structuring.
 - **Quote Blocks:** Insert quoted text with configurable captions.
