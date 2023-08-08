@@ -1,6 +1,6 @@
 # Inspire: An Innovative Text Editor
 
-Welcome to Inspire, an innovative text editor powered by React and the open-source EditorJS library. This text editor provides a rich set of features and tools to help you create and edit content seamlessly. It includes capabilities for formatting text, adding headers, creating lists, embedding media, and more.
+Welcome to Inspire, an innovative text editor powered by React and the open-source EditorJS library. This text editor provides a rich set of features and tools to help you create and edit content seamlessly. It includes capabilities for formatting text, adding headers, creating lists,  and more.
 
 ## visit the website
 You can access the online text editor by visiting the following link: [Online Text Editor](https://texteditor-987a3.web.app/)
