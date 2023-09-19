@@ -19,8 +19,4 @@ Inspire comes with a range of features that enhance your text editing experience
 
 The welcome message in Inspire uses a typewriter effect to gradually display the text. The `Typewriter` component is employed to achieve this effect. The text is displayed character by character with a specified delay between each character.
 
-```jsx
-import Typewriter from "./Typewriter";
 
-// Usage
-<Typewriter text="Welcome to Inspire: An Innovative Text Editor!" delay={100} />
